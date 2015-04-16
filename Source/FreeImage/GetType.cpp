@@ -23,10 +23,10 @@
 #pragma warning (disable : 4786) // identifier was truncated to 'number' characters
 #endif 
 
-#include "FreeImage.h"
-#include "Utilities.h"
-#include "FreeImageIO.h"
-#include "Plugin.h"
+#include "_freeimage-py_FreeImage.h"
+#include "_freeimage-py_Utilities.h"
+#include "_freeimage-py_FreeImageIO.h"
+#include "_freeimage-py_Plugin.h"
 #include "../DeprecationManager/DeprecationMgr.h"
 
 // ----------------------------------------------------------

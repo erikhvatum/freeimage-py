@@ -33,8 +33,8 @@
  ============================================================
 */
 
-#include "FreeImage.h"
-#include "Utilities.h"
+#include "_freeimage-py_FreeImage.h"
+#include "_freeimage-py_Utilities.h"
 
 #define RBLOCK		64	// image blocks of RBLOCK*RBLOCK pixels
 

@@ -19,9 +19,9 @@
 // Use at your own risk!
 // ==========================================================
 
-#include "Quantizers.h"
-#include "FreeImage.h"
-#include "Utilities.h"
+#include "_freeimage-py_Quantizers.h"
+#include "_freeimage-py_FreeImage.h"
+#include "_freeimage-py_Utilities.h"
 
 LFPQuantizer::LFPQuantizer(unsigned PaletteSize) :
 		m_size(0), m_limit(PaletteSize), m_index(0) {

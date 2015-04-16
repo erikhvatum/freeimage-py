@@ -33,10 +33,10 @@
 #include <ctype.h>
 #endif // _WIN32
 
-#include "FreeImage.h"
-#include "Utilities.h"
-#include "FreeImageIO.h"
-#include "Plugin.h"
+#include "_freeimage-py_FreeImage.h"
+#include "_freeimage-py_Utilities.h"
+#include "_freeimage-py_FreeImageIO.h"
+#include "_freeimage-py_Plugin.h"
 
 #include "../Metadata/FreeImageTag.h"
 

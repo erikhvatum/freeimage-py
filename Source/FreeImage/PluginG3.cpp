@@ -22,8 +22,8 @@
 
 #include "../LibTIFF4/tiffiop.h"
 
-#include "FreeImage.h"
-#include "Utilities.h"
+#include "_freeimage-py_FreeImage.h"
+#include "_freeimage-py_Utilities.h"
 
 // ==========================================================
 // Plugin Interface

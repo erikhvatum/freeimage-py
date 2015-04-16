@@ -33,10 +33,10 @@
 #include <malloc.h>
 #endif // _WIN32 || _WIN64 || __MINGW32__
 
-#include "FreeImage.h"
-#include "FreeImageIO.h"
-#include "Utilities.h"
-#include "MapIntrospector.h"
+#include "_freeimage-py_FreeImage.h"
+#include "_freeimage-py_FreeImageIO.h"
+#include "_freeimage-py_Utilities.h"
+#include "_freeimage-py_MapIntrospector.h"
 
 #include "../Metadata/FreeImageTag.h"
 

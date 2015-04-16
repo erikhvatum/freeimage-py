@@ -23,9 +23,9 @@
 // Use at your own risk!
 // ==========================================================
 
-#include "FreeImage.h"
-#include "Utilities.h"
-#include "Quantizers.h"
+#include "_freeimage-py_FreeImage.h"
+#include "_freeimage-py_Utilities.h"
+#include "_freeimage-py_Quantizers.h"
 
 // ----------------------------------------------------------
 

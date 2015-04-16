@@ -20,7 +20,7 @@
 // Use at your own risk!
 // ==========================================================
 
-#include "FreeImage.h"
+#include "_freeimage-py_FreeImage.h"
 
 #include "../DeprecationManager/DeprecationMgr.h"
 

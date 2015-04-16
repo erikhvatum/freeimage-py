@@ -30,9 +30,9 @@
 //             Author: Hervé Drolon (drolon@infonie.fr)
 ///////////////////////////////////////////////////////////////////////
 
-#include "Quantizers.h"
-#include "FreeImage.h"
-#include "Utilities.h"
+#include "_freeimage-py_Quantizers.h"
+#include "_freeimage-py_FreeImage.h"
+#include "_freeimage-py_Utilities.h"
 
 ///////////////////////////////////////////////////////////////////////
 

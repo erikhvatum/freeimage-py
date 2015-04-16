@@ -19,9 +19,9 @@
 // Use at your own risk!
 // ==========================================================
 
-#include "FreeImage.h"
-#include "Utilities.h"
-#include "FreeImageIO.h"
+#include "_freeimage-py_FreeImage.h"
+#include "_freeimage-py_Utilities.h"
+#include "_freeimage-py_FreeImageIO.h"
 
 // =====================================================================
 // File IO functions

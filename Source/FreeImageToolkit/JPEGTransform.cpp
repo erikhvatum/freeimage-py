@@ -32,9 +32,9 @@ extern "C" {
 #include "../LibJPEG/transupp.h"
 }
 
-#include "FreeImage.h"
-#include "Utilities.h"
-#include "FreeImageIO.h"
+#include "_freeimage-py_FreeImage.h"
+#include "_freeimage-py_Utilities.h"
+#include "_freeimage-py_FreeImageIO.h"
 
 // ----------------------------------------------------------
 //   Source manager & Destination manager setup

@@ -23,7 +23,7 @@
 #define FREEIMAGEIO_H
 
 #ifndef FREEIMAGE_H
-#include "FreeImage.h"
+#include "_freeimage-py_FreeImage.h"
 #endif
 
 // ----------------------------------------------------------

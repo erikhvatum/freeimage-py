@@ -20,9 +20,9 @@
 // Use at your own risk!
 // ==========================================================
 
-#include "FreeImage.h"
-#include "Utilities.h"
-#include "ToneMapping.h"
+#include "_freeimage-py_FreeImage.h"
+#include "_freeimage-py_Utilities.h"
+#include "_freeimage-py_ToneMapping.h"
 
 // ----------------------------------------------------------
 // Convert RGB to and from Yxy, same as in Reinhard et al. SIGGRAPH 2002

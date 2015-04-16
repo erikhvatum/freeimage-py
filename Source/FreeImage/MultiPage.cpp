@@ -30,11 +30,11 @@
 #pragma warning (disable : 4786) // identifier was truncated to 'number' characters
 #endif
 
-#include "CacheFile.h"
-#include "FreeImageIO.h"
-#include "Plugin.h"
-#include "Utilities.h"
-#include "FreeImage.h"
+#include "_freeimage-py_CacheFile.h"
+#include "_freeimage-py_FreeImageIO.h"
+#include "_freeimage-py_Plugin.h"
+#include "_freeimage-py_Utilities.h"
+#include "_freeimage-py_FreeImage.h"
 
 // ----------------------------------------------------------
 

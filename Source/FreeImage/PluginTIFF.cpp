@@ -35,13 +35,13 @@
 #undef __unix
 #endif
 
-#include "FreeImage.h"
-#include "Utilities.h"
+#include "_freeimage-py_FreeImage.h"
+#include "_freeimage-py_Utilities.h"
 #include "../LibTIFF4/tiffiop.h"
 #include "../Metadata/FreeImageTag.h"
 #include "../OpenEXR/Half/half.h"
 
-#include "FreeImageIO.h"
+#include "_freeimage-py_FreeImageIO.h"
 #include "PSDParser.h"
 
 // --------------------------------------------------------------------------

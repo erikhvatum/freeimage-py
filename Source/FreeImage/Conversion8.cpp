@@ -23,8 +23,8 @@
 // Use at your own risk!
 // ==========================================================
 
-#include "FreeImage.h"
-#include "Utilities.h"
+#include "_freeimage-py_FreeImage.h"
+#include "_freeimage-py_Utilities.h"
 
 // ----------------------------------------------------------
 //  internal conversions X to 8 bits

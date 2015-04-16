@@ -40,8 +40,8 @@ extern "C" {
 #include "../LibJPEG/jerror.h"
 }
 
-#include "FreeImage.h"
-#include "Utilities.h"
+#include "_freeimage-py_FreeImage.h"
+#include "_freeimage-py_Utilities.h"
 
 #include "../Metadata/FreeImageTag.h"
 
