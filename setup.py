@@ -1,6 +1,7 @@
 import distutils.core
+import sys
 
-SRCS = '''Source/FreeImage/BitmapAccess.cpp
+SRCS = """Source/FreeImage/BitmapAccess.cpp
 Source/FreeImage/ColorLookup.cpp
 Source/FreeImage/FreeImage.cpp
 Source/FreeImage/FreeImageC.c
@@ -198,19 +199,25 @@ Source/ZLib/inftrees.c
 Source/ZLib/trees.c
 Source/ZLib/uncompr.c
 Source/ZLib/zutil.c
-Source/OpenEXR/Half/half.cpp'''.split('\n')
+Source/OpenEXR/Half/half.cpp""".split('\n')
 
-INCLUDE = '''Source
+INCLUDE = """Source
 Source/Metadata
 Source/FreeImageToolkit
 Source/LibJPEG
 Source/LibPNG
 Source/LibTIFF4
 Source/ZLib
-Source/OpenEXR/Half'''.split('\n')
+Source/OpenEXR/Half""".split('\n')
+
+extra_compile_args = []
+
+if sys.platform != 'win32':
+    extra_compile_args.extend(('-O3', '-march=native'))
 
 freeimage = distutils.core.Extension('freeimage._freeimage',
     sources = ['freeimage/_freeimage.c'] + SRCS,
+    extra_compile_args = extra_compile_args,
     include_dirs = INCLUDE)
 
 distutils.core.setup(name = 'freeimage',
